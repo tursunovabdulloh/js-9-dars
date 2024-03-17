@@ -22,19 +22,32 @@
 // }
 
 // 102-masala
-function testNum(a = +prompt("son kiriting")) {
-  let result;
-  if (a > 0 && a < 5) {
-    result = "true";
-  } else {
-    result = "false";
-  }
-  return result;
-}
-console.log(testNum());
-// 103-masala
+// function testNum(a = +prompt("son kiriting")) {
+// let result;
+// if (a > 0 && a <= 5) {
+//   result = "true";
+// } else {
+//   result = "false";
+// }
+// return result;
+// console.log(testNum());
 
+// 103 - masala;
+// function testkvadrat(son = prompt("son kiriting")) {
+//   let raqam1 = son ** 2;
+//   let olchov = raqam1.;
+//   let result;
+//   if (son == olchov) {
+//     result = "true";
+//   } else {
+//     result = "false";
+//   }
+//   return result;
+// }
+// console.log(testkvadrat());
 // 104-masala
+let arr = [0, 0, 0, 0, 0, 0];
+console.log(arr);
 // 105-masala
 // let arr = ["fanta", "cola", "water"];
 // let suv = cola,
