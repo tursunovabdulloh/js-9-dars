@@ -13,16 +13,27 @@
 // let result = tagQosh();
 // console.log(result);
 //101-masala
-let raqam = +prompt("raqam kiriting");
-for (i = raqam; i > 0; i--) {
-  let son1 = 0;
-  let son = son1 + i;
-  let result = son;
-  console.log(result);
-}
+// let raqam = +prompt("raqam kiriting");
+// for (i = raqam; i > 0; i--) {
+//   let son1 = 0;
+//   let son = son1 + i;
+//   let result = son;
+//   console.log(result);
+// }
 
 // 102-masala
+function testNum(a = +prompt("son kiriting")) {
+  let result;
+  if (a > 0 && a < 5) {
+    result = "true";
+  } else {
+    result = "false";
+  }
+  return result;
+}
+console.log(testNum());
 // 103-masala
+
 // 104-masala
 // 105-masala
 // let arr = ["fanta", "cola", "water"];
