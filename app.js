@@ -1,26 +1,17 @@
 // 100-masala
-// Namuna("div*2") ➞ "<div></div><div></div>"
-// function tagQosh(tag, son) {
-//   tag = prompt("tag kiriting");
-//   son = +prompt("son kiriting");
-//   let yozuv = "";
-//   for (i = 1; (i = son); i++) {
-//     yozuv = `${yozuv} + <>tag</>`;
-//   }
-//   let natija = `${tag} * ${son} = }`;
-//   return natija;
-// }
-// let result = tagQosh();
-// console.log(result);
-//101-masala
-// let raqam = +prompt("raqam kiriting");
-// for (i = raqam; i > 0; i--) {
-//   let son1 = 0;
-//   let son = son1 + i;
-//   let result = son;
-//   console.log(result);
-// }
-
+let hamma = "div";
+let string = prompt("tag kiriting");
+function Tagqosh(soz, hisob) {
+  let result1 = "<" + soz + ">";
+  let result2 = "<" + "/" + soz + ">";
+  if (hisob == "div * 2") {
+    console.log('"' + result1 + result2 + result1 + result2 + '"');
+  } else if (hisob !== "div * 2") {
+    console.log(false);
+  }
+  return '"' + result1 + result2 + result1 + result2 + '"';
+}
+console.log(Tagqosh(hamma, string));
 // 102-masala
 // function testNum(a = +prompt("son kiriting")) {
 // let result;
@@ -88,13 +79,18 @@
 //   let ikkinchi_son = son % 10;
 //   let uchinchi_son = son / 100;
 // }
-// 108-masala
-function getRandomInt(son) {
-  return Math.ceil(Math.random() * son);
-}
-console.log(getRandomInt(5));
-console.log(getRandomInt(9));
+// // 108-masala
+// function getRandomInt(son) {
+//   return Math.ceil(Math.random() * son);
+// }
+// console.log(getRandomInt(5));
+// console.log(getRandomInt(9));
 // 109-masala
+// function rostmi(son) {
+//   return (birinchi_son = son % 100);
+// }
+// console.log(rostmi(123));
+// console.log(rostmi(birinchi_son));
 // 110-masala
 // let ism = prompt("ismingizni yozing");
 // let boshharif = ism.charAt(0).toUpperCase();
